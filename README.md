@@ -91,6 +91,7 @@ Hello, World!
 ```
 
 **Baris perintah python**
+
 Untuk menguji sejumlah kecil kode dalam python terkadang tercepat dan termudah untuk tidak menulis kode dalam file. Ini dimungkinkan karena Python dapat dijalankan sebagai baris perintah itu sendiri.
 
 Ketik baris perintah berikut pada mac, windows dan linux:
@@ -199,4 +200,85 @@ Dalam Python, variabel dibuat saat Anda menetapkan nilai padanya:
 > y = "Hello, World!"
 > ```
 
+Python tidak memiliki perintah untuk mendeklarasikan variabel.
+
+Anda akan mempelajari lebih lanjut tentang variabel di bab Variabel Python .
+
+**Komentar**
+
+Python memiliki kemampuan berkomentar untuk tujuan dokumentasi dalam kode.
+
+Komentar dimulai dengan #, dan Python akan merender sisa baris sebagai komentar:
+
+> Contoh
+> 
+> komentar dengan python:
+> ```py
+> #This is a comment.
+> print("Hello, World!")
+> ```
+
+---
+# Komentar Python
+
+Komentar dapat digunakan untuk menjelaskan kode Python.
+
+Komentar dapat digunakan untuk membuat kode lebih mudah dibaca.
+
+Komentar dapat digunakan untuk mencegah eksekusi saat menguji kode.
+
+**Membuat Komentar**
+
+Komentar dimulai dengan `#`, dan Python akan mengabaikannya:
+
+> Contoh
+> ```py
+> # this is comment
+> print("Hello, World!")
+> ```
+
+Komentar dapat ditempatkan di akhir baris, dan Python akan mengabaikan sisa baris:
+
+> Contoh
+> ```py
+> print("Hello, World!") #This is a comment
+> ```
+
+Komentar tidak harus berupa teks yang menjelaskan kode, tetapi juga dapat digunakan untuk mencegah Python mengeksekusi kode:
+
+> Contoh
+> ```py
+> #print("Hello, World!")
+> print("Cheers, Mate!")
+> ```
+
+**Komentar Multi Baris**
+
+Python tidak benar-benar memiliki sintaks untuk komentar multi baris.
+
+Untuk menambahkan komentar multiline, Anda dapat menyisipkan a `#` untuk setiap baris:
+
+> Contoh
+> ```py
+> #This is a comment
+> #written in
+> #more than just one line
+> print("Hello, World!")
+> ```
+
+Atau, tidak seperti yang dimaksudkan, Anda dapat menggunakan string multiline.
+
+Karena Python akan mengabaikan literal string yang tidak ditetapkan ke variabel, Anda dapat menambahkan string multiline (tanda kutip tiga) dalam kode Anda, dan menempatkan komentar Anda di dalamnya:
+
+> Contoh
+> ```py
+> """
+> This is a comment
+> written in
+> more than just one line
+> """
+> print("Hello, World!")
+> ```
+
+Selama string tidak ditetapkan ke variabel, Python akan membaca kode, tetapi kemudian mengabaikannya, dan Anda telah membuat komentar multiline.
 
