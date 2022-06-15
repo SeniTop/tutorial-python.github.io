@@ -469,3 +469,67 @@ Jika Anda memiliki kumpulan nilai dalam daftar, tupel dll. Python memungkinkan A
 > print(z)
 > ```
 
+# Python - Output Variables
+
+**Output Variables**
+
+Fungsi `print()` pada python sering digunakan untuk mengeluarkan variable.
+
+Contoh
+```py
+x = "Python is awesome"
+print(x)
+```
+
+Dalam fungsi `print()` tersebut anda dapat menampilkan beberapa variable, dipisahkan dengan koma:
+
+Contoh
+```py
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+```
+
+Anda juga dapat menggunakan operator `+` untuk menampilkan beberapa variable:
+
+Contoh
+```py
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+```
+
+Perhatikan karakter spasi setelah `"Python "` dan `"is "`, tanpa spasi hasilnya akan menjadi "Pythonisawesome".
+
+Untuk angka, karakter `+` berfungsi sebagai operator matematika:
+
+Contoh
+```py
+x = 5
+y = 10
+print(x + y)
+```
+
+Dalam fungsi `print()` ketika anda mencoba menggabungkan string dan angka dengan operator `+`, python akan menghasilkan kesalahan:
+
+Contoh
+```py
+x = 5
+y = "John"
+print(x + y)
+```
+
+Cara terbaik untuk menampilkan banyak variable dalam fungsi `print()` adalah dengan memisahkannya dengan koma, yang bahkan mendukung type data yang berbeda:
+
+Contoh
+```py
+x = 5
+y = "John"
+print(x, y)
+```
+
+---
+# Python - Global Variables
+
