@@ -361,3 +361,111 @@ Nama variabel peka huruf besar/kecil.
 > #A will not overwrite a
 > ```
 
+---
+# Python Variable Names
+
+**Variable name**
+
+Sebuah variabel dapat memiliki nama pendek (seperti x dan y) atau nama yang lebih deskriptif (umur, carname, total_volume). Aturan untuk variabel Python:
+
+- Nama variabel harus dimulai dengan huruf atau karakter garis bawah
+- Nama variabel tidak boleh dimulai dengan angka
+- Nama variabel hanya boleh berisi karakter alfanumerik dan garis bawah (Az, 0-9, dan _ )
+- Nama variabel peka huruf besar/kecil (usia, Usia, dan AGE adalah tiga variabel berbeda)
+
+> Contoh
+>
+> Ketentuan Penulisan nama variable
+> ```py
+> myvar = "John"
+> my_var = "John"
+> _my_var = "John"
+> myVar = "John"
+> MYVAR = "John"
+> myvar2 = "John"
+> ```
+
+> Contoh
+> 
+> Nama variabel ilegal:
+> ```py
+> 2myvar = "John"
+> my-var = "John"
+> my var = "John"
+> ```
+
+`Ingat bahwa nama variabel peka terhadap huruf besar-kecil`
+
+**Nama Variabel Multi Kata**
+
+Nama variabel dengan lebih dari satu kata bisa jadi sulit dibaca.
+
+Ada beberapa teknik yang dapat Anda gunakan untuk membuatnya lebih mudah dibaca:
+
+**Camel case**
+
+Setiap kata, kecuali yang pertama, dimulai dengan huruf kapital:
+
+```py
+myVariableName = "John"
+```
+
+**Pascal Case**
+
+Setiap kata dimulai dengan huruf kapital:
+
+```py
+MyVariableName = "John"
+```
+
+**Snake Case**
+
+Setiap kata dipisahkan oleh karakter garis bawah:
+
+```py
+my_variable_name = "John"
+```
+
+# Variabel Python - Menetapkan Beberapa Nilai
+
+**Banyak Nilai ke Beberapa Variabel**
+
+Python memungkinkan Anda untuk menetapkan nilai ke beberapa variabel dalam satu baris:
+
+> Contoh
+> ```py
+> x, y, z = "Orange", "Banana", "Cherry"
+> print(x)
+> print(y)
+> print(z)
+> ```
+
+`Catatan: Pastikan jumlah variabel sesuai dengan jumlah nilai, atau Anda akan mendapatkan kesalahan.`
+
+**Satu Nilai ke Beberapa Variabel**
+
+Dan Anda dapat menetapkan nilai yang sama ke beberapa variabel dalam satu baris:
+
+> Contoh
+> ```py
+> x = y = z = "Orange"
+> print(x)
+> print(y)
+> print(z)
+> ```
+
+**Membongkar Koleksi**
+
+Jika Anda memiliki kumpulan nilai dalam daftar, tupel dll. Python memungkinkan Anda untuk mengekstrak nilai ke dalam variabel. Ini disebut membongkar.
+
+> Contoh
+> 
+> Buka kemasan daftar:
+> ```py
+> fruits = ["apple", "banana", "cherry"]
+> x, y, z = fruits
+> print(x)
+> print(y)
+> print(z)
+> ```
+
