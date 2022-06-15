@@ -282,3 +282,82 @@ Karena Python akan mengabaikan literal string yang tidak ditetapkan ke variabel,
 
 Selama string tidak ditetapkan ke variabel, Python akan membaca kode, tetapi kemudian mengabaikannya, dan Anda telah membuat komentar multiline.
 
+# Variabel Python
+
+### Variables
+
+Variabel adalah wadah untuk menyimpan nilai data.
+
+**Membuat Variabel**
+
+Python tidak memiliki perintah untuk mendeklarasikan variabel.
+
+Variabel dibuat saat Anda pertama kali menetapkan nilai padanya.
+
+> Contoh
+> ```py
+> x = 5
+> y = "John"
+> print(x)
+> print(y)
+> ```
+
+Variabel tidak perlu dideklarasikan dengan tipe tertentu , dan bahkan dapat diubah tipenya setelah ditetapkan.
+
+> Contoh
+> ```py
+> x = 4       # x is of type int
+> x = "Sally" # x is now of type str
+> print(x)
+> ```
+
+**Pengecoran**
+
+Jika Anda ingin menentukan tipe data dari suatu variabel, ini dapat dilakukan dengan casting.
+
+> Contoh
+> ```py
+> x = str(3)    # x will be '3'
+> y = int(3)    # y will be 3
+> z = float(3)  # z will be 3.0
+> ```
+
+**Melihat type data**
+
+Anda bisa mendapatkan tipe data variabel dengan method `type()`.
+
+> Contoh
+> ```py
+> x = 5
+> y = "John"
+> print(type(x))
+> print(type(y))
+> ```
+
+Anda akan mempelajari lebih lanjut tentang tipe data dan casting nanti dalam tutorial ini.
+
+**Kutipan Tunggal atau Ganda?**
+
+Variabel string dapat dideklarasikan dengan menggunakan tanda kutip tunggal atau ganda:
+
+> Contoh
+> ```py
+> x = "John"
+> # is the same as
+> x = 'John'
+> ```
+
+**case sensitif**
+
+Nama variabel peka huruf besar/kecil.
+
+> Contoh
+> 
+> Ini akan membuat dua variabel:
+>
+> ```py
+> a = 4
+> A = "Sally"
+> #A will not overwrite a
+> ```
+
