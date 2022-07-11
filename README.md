@@ -533,3 +533,31 @@ print(x, y)
 ---
 # Python - Global Variables
 
+Variabel yang dibuat di luar fungsi dikeanl sebagai variabel global. 
+
+Variabel global dapat digunakan oleh semua orang, baik di dalam fungsi maupun di luar.
+
+>Contoh
+>Buat variabel di luar fungsi, dan gunakan di dalam fungsi
+>```py
+>x = 'awesome'
+>def myfunc():
+>	print('python is ' + x)
+>
+>myfunc()
+>```
+
+Jika kalian membuat variabel dengan nama yang sama di dalam suatu fungsi, variabel ini akan bersifat lokal, dan hanya dapat digunakan di dalam fungsi tersebut. Variabel global dengan nama yang sama akan tetap seperti semula, global dan dengan nilai aslinya. 
+
+>Contoh
+>```py
+>x = 'awesome'
+>def myfunc():
+>	x = 'fantastic'
+>	print('python is ' + x)
+>
+>myfunc()
+>print('python is ' + x)
+>```
+
+**Kata Kunci Global**
