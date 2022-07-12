@@ -561,3 +561,25 @@ Jika kalian membuat variabel dengan nama yang sama di dalam suatu fungsi, variab
 >```
 
 **Kata Kunci Global**
+
+# Tipe Data Python
+
+**Tipe Data Python**
+
+Dalam pemrograman, tipe data merupakan konsep penting. 
+
+Variabel dapat menyimpan data dari tipe yang berbeda, dan tipe yang berbeda dapat melakukan hal yang berbeda. 
+
+Python memiliki tipe data berikut bawaan secara default, dalam kategori ini:
+
+| | |
+|:---|:---|
+|Text type | str |
+| Numeric types | int, float, complex |
+| Sequence types | list, tuple, range |
+| Mapping type | dict |
+| Set types | set, frozenset |
+| Boolean type | bool |
+|Binary types | bytes, bytearray, memoryview |
+|None type | NoneType |
+
